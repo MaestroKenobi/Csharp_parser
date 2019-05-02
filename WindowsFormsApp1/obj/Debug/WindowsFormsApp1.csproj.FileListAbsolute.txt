@@ -1,0 +1,14 @@
+H:\repos\Csharp_parser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+H:\repos\Csharp_parser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+H:\repos\Csharp_parser\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+H:\repos\Csharp_parser\WindowsFormsApp1\bin\Debug\HtmlAgilityPack.dll
+H:\repos\Csharp_parser\WindowsFormsApp1\bin\Debug\HtmlAgilityPack.pdb
+H:\repos\Csharp_parser\WindowsFormsApp1\bin\Debug\HtmlAgilityPack.xml
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+H:\repos\Csharp_parser\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

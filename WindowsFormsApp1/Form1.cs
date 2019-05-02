@@ -15,6 +15,12 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            var html = @"htt"
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

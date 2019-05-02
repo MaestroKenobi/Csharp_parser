@@ -1,0 +1,11 @@
+H:\repos\Csharp_parser\ConsoleVer\bin\Debug\ConsoleVer.exe.config
+H:\repos\Csharp_parser\ConsoleVer\bin\Debug\ConsoleVer.exe
+H:\repos\Csharp_parser\ConsoleVer\bin\Debug\ConsoleVer.pdb
+H:\repos\Csharp_parser\ConsoleVer\bin\Debug\HtmlAgilityPack.dll
+H:\repos\Csharp_parser\ConsoleVer\bin\Debug\HtmlAgilityPack.pdb
+H:\repos\Csharp_parser\ConsoleVer\bin\Debug\HtmlAgilityPack.xml
+H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csprojAssemblyReference.cache
+H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csproj.CoreCompileInputs.cache
+H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csproj.CopyComplete
+H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.exe
+H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.pdb
