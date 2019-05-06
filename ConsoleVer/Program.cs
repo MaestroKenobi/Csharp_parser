@@ -36,11 +36,52 @@ namespace ConsoleVer
             for (int i = 0; i < links.Count; i++)
             {
                 var html = links[i];
-                HtmlWeb wep = new HtmlWeb();
-                var html_dog = wep.Load(html);
-                var nod = html_dog.DocumentNode.SelectSingleNode("//head/title");
-                Console.WriteLine(nod.Name + "\n" + nod.InnerText);
-                Console.ReadKey();
+                if (html.Contains("anilibria.tv"))
+                {
+                    HtmlWeb web = new HtmlWeb();
+                    var html_doc = web.Load(html);
+                    HtmlNode name = html_doc.DocumentNode.SelectSingleNode("//body//h1");
+                    HtmlNode serial = html_doc.DocumentNode.SelectSingleNode("//text()[contains(., 'Серия 1-')]");
+                    string path_result = "result.txt";
+                    FileInfo file = new FileInfo(path_result);
+                    if (file.Exists)
+                    {
+                        using (StreamReader reader = new StreamReader(path_result, Encoding.UTF8))
+                        {
+                            string line_result;
+                            while ((line_result = reader.ReadLine()) != null)
+                            {
+                                string result_past = line_result;
+                                if (result_past == Convert.ToString(serial))
+                                {
+
+                                }
+                                else
+                                {
+                                    //string name_str = name.InnerText.ToString();
+                                    //name_str = name_str.Replace(" ", "");
+                                    //Console.WriteLine()
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        file.Create();
+                        i = 0;
+                    }
+                    string name_str = name.InnerHtml.Trim();
+                    int a = name_str.IndexOf("<");
+                    int b = name_str.LastIndexOf(">");
+                    name_str = name_str.Insert(a, "/");
+                    name_str = name_str.Remove(a+1, 4);
+                    Console.WriteLine(name_str);
+                    Console.ReadKey();
+                }
+                else if (html.Contains("sovetromantica.com"))
+                {
+
+                }
             }
         }
     }
