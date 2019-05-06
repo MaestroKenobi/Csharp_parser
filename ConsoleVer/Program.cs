@@ -65,6 +65,7 @@ namespace ConsoleVer
                                     name_str = name_str.Remove(a + 1, 4);
                                     Console.WriteLine(name_str);
                                     Console.ReadKey();
+                                    //Just a comment
                                 }
                             }
                         }
