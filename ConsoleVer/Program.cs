@@ -58,9 +58,13 @@ namespace ConsoleVer
                                 }
                                 else
                                 {
-                                    //string name_str = name.InnerText.ToString();
-                                    //name_str = name_str.Replace(" ", "");
-                                    //Console.WriteLine()
+                                    string name_str = name.InnerHtml.Trim();
+                                    int a = name_str.IndexOf("<");
+                                    int b = name_str.LastIndexOf(">");
+                                    name_str = name_str.Insert(a, "/");
+                                    name_str = name_str.Remove(a + 1, 4);
+                                    Console.WriteLine(name_str);
+                                    Console.ReadKey();
                                 }
                             }
                         }
@@ -70,13 +74,6 @@ namespace ConsoleVer
                         file.Create();
                         i = 0;
                     }
-                    string name_str = name.InnerHtml.Trim();
-                    int a = name_str.IndexOf("<");
-                    int b = name_str.LastIndexOf(">");
-                    name_str = name_str.Insert(a, "/");
-                    name_str = name_str.Remove(a+1, 4);
-                    Console.WriteLine(name_str);
-                    Console.ReadKey();
                 }
                 else if (html.Contains("sovetromantica.com"))
                 {
