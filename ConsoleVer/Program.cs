@@ -68,10 +68,18 @@ namespace ConsoleVer
                     int eps_total = Convert.ToUInt16(episodes_total_str);
                     if (ep_last != eps_total)
                     {
+                        List<HtmlNode> ep_new = new List<HtmlNode>();
+                        foreach (HtmlNode node in html_doc.DocumentNode.SelectNodes("//text()[contains(., 'Серия')]"))
+                        {
+                            ep_new.Add(node);
+                        }
+                        string ep_new_str = Convert.ToString(ep_new.Last().InnerText);
+                        Console.WriteLine(ep_new_str);
+                        Console.ReadKey();
 
                     }
-                    Console.WriteLine(eps_total);
-                    Console.ReadKey();
+                    //Console.WriteLine(eps_total);
+                    //Console.ReadKey();
                 }
                 //    string path_result = "result.txt";
                 //    FileInfo file = new FileInfo(path_result);
