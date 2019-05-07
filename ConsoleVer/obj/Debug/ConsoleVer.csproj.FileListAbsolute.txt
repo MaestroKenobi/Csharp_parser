@@ -9,3 +9,14 @@ H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csproj.CoreCompileInputs.
 H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csproj.CopyComplete
 H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.exe
 H:\repos\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.pdb
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csprojAssemblyReference.cache
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csproj.CoreCompileInputs.cache
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.exe
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.pdb
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\bin\Debug\ConsoleVer.exe.config
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\bin\Debug\ConsoleVer.exe
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\bin\Debug\ConsoleVer.pdb
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Flash\Desktop\Csharp_parser\ConsoleVer\obj\Debug\ConsoleVer.csproj.CopyComplete
